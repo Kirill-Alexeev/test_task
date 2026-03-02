@@ -30,7 +30,7 @@
               }
             ],
             "styles": ["src/styles.scss"],
-            "baseHref": "/test-task/"
+            "baseHref": "/test_task/"
           },
           "configurations": {
             "production": {
