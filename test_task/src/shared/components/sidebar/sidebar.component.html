@@ -1,0 +1,18 @@
+<aside class="sidebar">
+    <div class="sidebar__logo">
+        <span class="sidebar__logo-text">Навигация</span>
+    </div>
+
+    <nav class="sidebar__nav">
+        <a routerLink="/" routerLinkActive="sidebar__link--active" [routerLinkActiveOptions]="{ exact: true }"
+            class="sidebar__link">
+            <span class="sidebar__link-icon">🏠</span>
+            <span class="sidebar__link-text">Главная</span>
+        </a>
+
+        <a routerLink="/menu" routerLinkActive="sidebar__link--active" class="sidebar__link">
+            <span class="sidebar__link-icon">🍽️</span>
+            <span class="sidebar__link-text">Меню</span>
+        </a>
+    </nav>
+</aside>

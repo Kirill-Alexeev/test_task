@@ -1,0 +1,21 @@
+<header class="header">
+    <div class="header__container">
+        <div class="header__section">
+            <span class="header__section-label">Раздел:</span>
+            <span class="header__section-name">{{ currentSection }}</span>
+        </div>
+
+        @if (selectedCount() > 0) {
+        <div class="header__info">
+            <div class="header__stat">
+                <span class="header__stat-label">Выбрано:</span>
+                <span class="header__stat-value">{{ selectedCount() }}</span>
+            </div>
+            <div class="header__stat">
+                <span class="header__stat-label">Сумма:</span>
+                <span class="header__stat-value header__stat-value--total">{{ totalValue() }} ₽</span>
+            </div>
+        </div>
+        }
+    </div>
+</header>

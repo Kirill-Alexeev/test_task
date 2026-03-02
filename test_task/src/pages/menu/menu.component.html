@@ -1,0 +1,30 @@
+<div class="menu">
+    <div class="menu__container">
+        <div class="menu__categories">
+            @for (category of categories; track category) {
+            <div class="menu__category">
+                <h2 class="menu__category-title">{{ category }}</h2>
+
+                <div class="menu__items">
+                    @for (item of getItemsByCategory(category); track item.id) {
+                    <label class="menu__item" [class.menu__item--selected]="isSelected(item)">
+                        <input type="checkbox" class="menu__checkbox" [checked]="isSelected(item)"
+                            (change)="toggleItem(item)" />
+                        <div class="menu__item-content">
+                            <span class="menu__item-label">{{ item.label }}</span>
+                            <span class="menu__item-value">{{ item.value }} ₽</span>
+                        </div>
+                        <div class="menu__item-check">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                    </label>
+                    }
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

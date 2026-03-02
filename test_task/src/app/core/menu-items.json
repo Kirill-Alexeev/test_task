@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "label": "Кофе",
+        "value": 220,
+        "category": "Напитки"
+    },
+    {
+        "id": 2,
+        "label": "Чай",
+        "value": 100,
+        "category": "Напитки"
+    },
+    {
+        "id": 3,
+        "label": "Сок",
+        "value": 130,
+        "category": "Напитки"
+    },
+    {
+        "id": 4,
+        "label": "Бутерброд",
+        "value": 240,
+        "category": "Еда"
+    },
+    {
+        "id": 5,
+        "label": "Салат",
+        "value": 310,
+        "category": "Еда"
+    },
+    {
+        "id": 6,
+        "label": "Шаурма",
+        "value": 250,
+        "category": "Еда"
+    },
+    {
+        "id": 7,
+        "label": "Мороженое",
+        "value": 80,
+        "category": "Десерты"
+    },
+    {
+        "id": 8,
+        "label": "Торт",
+        "value": 270,
+        "category": "Десерты"
+    },
+    {
+        "id": 9,
+        "label": "Сладкий пирог",
+        "value": 350,
+        "category": "Десерты"
+    }
+]
